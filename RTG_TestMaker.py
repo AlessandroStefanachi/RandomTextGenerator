@@ -468,6 +468,8 @@ def ValuePlotter():
     
     return r,q,b
 ##########
+########le funzioni doubling e ValuePlotter restituiscono 3 data frame accessibili da data[0],data[1] e data[2]
+#i data frame sono consultabili direttamente dal variable explorer di spyder
 data=model_comparison() 
 #Bdata=data[0]
 #Rdata=data[1]  
